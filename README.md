@@ -1,5 +1,7 @@
 # CONTENTMAXXING
 
+[![Package and test](https://github.com/perpy1/contentmaxxing/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/perpy1/contentmaxxing/actions/workflows/tests.yml)
+
 **Your work is already full of content. Stop starting from zero.**
 
 An open-source creator agent kit for the AI you already use. Install its skills,

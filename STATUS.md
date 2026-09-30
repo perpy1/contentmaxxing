@@ -10,8 +10,13 @@ creator data. That host acceptance predates the increments below. See
 The repository is now public at https://github.com/perpy1/contentmaxxing, with
 `main` tracking the new origin. The README and installation guide include the
 actual clone command, and package metadata links to the repository and Issues.
-The first hosted CI run has started; the earlier local verification below remains
-separate evidence until a hosted run completes.
+Hosted CI passed on both the initial push and the public-link update `f6d38d1`.
+The latter run built the source archive/wheel, verified artifacts and installed
+bytes, passed both Python 3.9/3.11 test jobs and their offline demos/smoke checks,
+and passed the final candidate gate:
+https://github.com/perpy1/contentmaxxing/actions/runs/36784692588.
+The README badge reports the current main-branch result. Native creator quality
+and optional live connectors remain separate from these mechanical checks.
 
 ## Testing-release preparation
 

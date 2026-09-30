@@ -1,5 +1,10 @@
 # Testing-release readiness — 2026-09-30
 
+Publication update: the repository is now public at
+https://github.com/perpy1/contentmaxxing. [Hosted package and test CI](https://github.com/perpy1/contentmaxxing/actions/runs/36784692588)
+passed for `f6d38d1`, including both Python versions and the final candidate gate.
+The original local-clone evidence below remains a separate historical check.
+
 The repository is ready to push and invite guided creator testing. The engine,
 skills, quick start, first-session trial, feedback templates and launch copy are
 committed. A public remote, download URL and hosted CI run are still separate

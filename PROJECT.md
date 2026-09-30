@@ -14,6 +14,11 @@ API key. Identity and voice come from the creator, never a default personality.
 
 ## Current milestone: official repository ready for creator testing
 
+The repository is now published at https://github.com/perpy1/contentmaxxing.
+Hosted CI passed for the initial publication and public install-link update;
+see `STATUS.md`. The first milestone below is complete. Real creator testing and
+versioned release distribution are next.
+
 Prepare a push-ready repository and an honest testing-release launch. The user
 has made this the first milestone; collecting real creator feedback is the next
 step after people can install and try it, not a prerequisite for inviting tests.
