@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local content revision journal",
+  "type": "object", "additionalProperties": false,
+  "required": ["id", "created_at", "updated_at", "content_id", "kind", "task_id", "status", "before", "after", "reason"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^rev_[a-f0-9]{12}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "content_id": {"type": "string", "pattern": "^post_[a-f0-9]{12}$"},
+    "kind": {"enum": ["manual", "agent"]},
+    "task_id": {"type": ["string", "null"], "pattern": "^task_[a-f0-9]{12}$"},
+    "status": {"enum": ["PREPARED", "APPLIED", "ABANDONED"]},
+    "before": {"type": "object"},
+    "after": {"type": "object"},
+    "reason": {"type": ["string", "null"]}
+  }
+}

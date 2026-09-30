@@ -1,0 +1,82 @@
+name: Package and test
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      # Default build creates the wheel FROM the sdist in an isolated environment.
+      - run: python -m build --outdir dist/candidate
+      - name: Verify candidate contents and version
+        shell: bash
+        run: |
+          tag_args=()
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then
+            tag_args=(--tag "$GITHUB_REF_NAME")
+          fi
+          python scripts/verify_release.py --dist dist/candidate --output dist/candidate/ARTIFACTS.json "${tag_args[@]}"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: candidate
+          path: dist/candidate/
+          if-no-files-found: error
+
+  test:
+    needs: package
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.9', '3.11']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/download-artifact@v8
+        with:
+          name: candidate
+          path: dist/candidate
+      - name: Install the exact candidate wheel
+        run: |
+          python -m pip install -r requirements-dev.txt dist/candidate/*.whl
+          python -m pip check
+          contentmaxxing --help
+          mkdir -p dist/evidence
+          cd dist/candidate
+          sha256sum --check SHA256SUMS
+      - name: Verify installed bytes and run tests outside the checkout
+        working-directory: ${{ runner.temp }}
+        run: |
+          python -I "$GITHUB_WORKSPACE/scripts/verify_release.py" --installed "$GITHUB_WORKSPACE/dist/candidate/ARTIFACTS.json" --output "$GITHUB_WORKSPACE/dist/evidence/installed.json"
+          python -I -m unittest discover -s "$GITHUB_WORKSPACE/tests" -v 2>&1 | tee "$GITHUB_WORKSPACE/dist/evidence/tests.log"
+          python -I "$GITHUB_WORKSPACE/examples/demo.py" --workspace "$RUNNER_TEMP/contentmaxxing-demo" > "$GITHUB_WORKSPACE/dist/evidence/demo.log"
+          python -I "$GITHUB_WORKSPACE/scripts/release_smoke.py" --output "$GITHUB_WORKSPACE/dist/evidence/smoke.json"
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: evidence-python-${{ matrix.python }}
+          path: dist/evidence/
+          if-no-files-found: warn
+
+  candidate-ready:
+    needs: [package, test]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Candidate package and installed tests passed. Publication and creator review remain separate.'

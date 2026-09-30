@@ -1,0 +1,21 @@
+[
+  {"name":"start","description":"Kick off or resume your custom content engine through a guided conversation and first batch.","skills":["kickoff"]},
+  {"name":"next","description":"Take the next useful step from saved progress, stopping for creator decisions.","skills":[]},
+  {"name":"progress","description":"See where your engine stands, what is saved, and what to do next.","skills":[]},
+  {"name":"resume","description":"Restore an unfinished kickoff, plan, or batch without starting over.","skills":[]},
+  {"name":"capture","description":"Save real work, conversations, questions, and proof to your source library.","skills":["capture"]},
+  {"name":"mine","description":"Find distinct, cited topics in your real source material.","skills":["transcript-mining"]},
+  {"name":"ideas","description":"Search, organize, and select ideas from your content bank.","skills":["idea-bank"]},
+  {"name":"voice","description":"Learn your voice from your own samples and review evidence-backed updates.","skills":["voice"]},
+  {"name":"plan","description":"Choose this week's topics, native formats, and content jobs.","skills":["editorial-planning"]},
+  {"name":"create","description":"Execute your saved editorial plan and resume until actual drafts are ready for review.","skills":["editorial-planning"]},
+  {"name":"draft","description":"Turn a source-backed idea into native content in your own voice.","skills":["voice","editorial-planning"]},
+  {"name":"article","description":"Build a useful article with evidence and one structural framework.","skills":["article-writing"]},
+  {"name":"week","description":"Run or resume your weekly editorial team, ending with drafts for review.","skills":["weekly-editorial-team"]},
+  {"name":"review","description":"Read, revise, and explicitly approve content before delivery.","skills":[]},
+  {"name":"publish","description":"Deliver explicitly chosen content through a connector or guide manual publication.","skills":[]},
+  {"name":"analytics","description":"Import measurements and learn what your content made people do.","skills":["analytics"]},
+  {"name":"compound","description":"Develop a measured winner with fresh proof, context, story, argument, format, or utility.","skills":["compound"]},
+  {"name":"status","description":"See saved setup progress, drafts, pending work, and the next useful step.","skills":[]},
+  {"name":"help","description":"Show CONTENTMAXXING abilities and suggest where to begin.","skills":[]}
+]

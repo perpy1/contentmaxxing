@@ -1,0 +1,65 @@
+{
+  "jobs": [
+    "Reach",
+    "Bookmarks / Saves",
+    "Shares",
+    "Conversation",
+    "Profile Visits",
+    "Follows",
+    "Trust",
+    "Proof",
+    "Authority",
+    "Inbound",
+    "Leads / Calls"
+  ],
+  "platforms": {
+    "x": [
+      "one-liner",
+      "contrarian take",
+      "short post",
+      "bookmark list",
+      "checklist",
+      "rough document screenshot",
+      "QRT + original insight",
+      "QRT + personal story",
+      "expanded QRT",
+      "me then vs me now",
+      "operator story",
+      "proof screenshot",
+      "Reddit-style breakdown",
+      "visual breakdown",
+      "long-form X post"
+    ],
+    "x_article": [
+      "X article"
+    ],
+    "linkedin": [
+      "LinkedIn post"
+    ],
+    "substack": [
+      "Substack article"
+    ],
+    "substack_note": [
+      "Substack Note"
+    ],
+    "tiktok": [
+      "TikTok facecam",
+      "TikTok screen demo",
+      "TikTok story",
+      "TikTok saveable breakdown"
+    ]
+  },
+  "job_metrics": {
+    "Reach": "impressions",
+    "Bookmarks / Saves": "bookmarks_per_1k",
+    "Shares": "share_rate",
+    "Conversation": "reply_rate",
+    "Profile Visits": "profile_visits_per_1k",
+    "Follows": "follows_per_1k",
+    "Trust": null,
+    "Proof": null,
+    "Authority": null,
+    "Inbound": "leads_per_1k",
+    "Leads / Calls": "calls_per_1k"
+  }
+}

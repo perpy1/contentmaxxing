@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contentmaxxing.local/schemas/idea",
+  "title": "idea",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+_[a-f0-9]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_reference": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "start_line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "end_line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "source_id",
+          "start_line",
+          "end_line",
+          "quote"
+        ]
+      }
+    },
+    "content_pillar": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "content_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "format": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "primary_job": {
+      "enum": [
+        "Reach",
+        "Bookmarks / Saves",
+        "Shares",
+        "Conversation",
+        "Profile Visits",
+        "Follows",
+        "Trust",
+        "Proof",
+        "Authority",
+        "Inbound",
+        "Leads / Calls"
+      ]
+    },
+    "best_platform": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "status": {
+      "enum": [
+        "BACKLOG",
+        "SELECTED",
+        "DRAFTING",
+        "NEEDS_REVIEW",
+        "APPROVED",
+        "SCHEDULED",
+        "PUBLISHED",
+        "COMPOUND",
+        "ARCHIVED"
+      ]
+    },
+    "proof": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "used_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "published_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "performance": {
+      "type": "object"
+    },
+    "follow_up_angle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "article_candidate": {
+      "type": "boolean"
+    },
+    "experiment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_content_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "addition": {
+      "enum": [
+        null,
+        "context",
+        "proof",
+        "story",
+        "format",
+        "argument",
+        "utility"
+      ]
+    },
+    "dedupe_key": {
+      "type": "string"
+    },
+    "extraction_mode": {
+      "type": "string"
+    },
+    "development": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "new_value",
+        "gaps"
+      ],
+      "properties": {
+        "task_id": {
+          "type": "string",
+          "pattern": "^task_[a-f0-9]{12}$"
+        },
+        "new_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gaps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "question",
+              "resolution"
+            ],
+            "properties": {
+              "question": {
+                "type": "string",
+                "minLength": 1
+              },
+              "resolution": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "note",
+                      "source_reference",
+                      "resolved_at"
+                    ],
+                    "properties": {
+                      "note": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "source_reference": {
+                        "$ref": "#/properties/source_reference"
+                      },
+                      "resolved_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "created_at",
+    "updated_at",
+    "topic",
+    "category",
+    "source",
+    "source_reference",
+    "content_pillar",
+    "content_type",
+    "format",
+    "primary_job",
+    "best_platform",
+    "priority",
+    "status",
+    "proof",
+    "notes",
+    "used_date",
+    "published_urls",
+    "performance",
+    "follow_up_angle",
+    "article_candidate",
+    "experiment",
+    "parent_content_id",
+    "addition",
+    "dedupe_key",
+    "extraction_mode"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contentmaxxing.local/schemas/creator-profile",
+  "title": "creator-profile",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "niche": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "ideal_customer": {
+      "type": "string"
+    },
+    "what_they_sell": {
+      "type": "string"
+    },
+    "business_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "content_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expertise": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "career_history": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proof_results": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "strong_opinions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ownership_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "excluded_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "posting_cadence": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "desired_tone": {
+      "type": "string"
+    },
+    "writing_samples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "top_posts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "articles_newsletters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_creators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cta_offer": {
+      "type": "string"
+    },
+    "restrictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "promise": {
+      "type": "string"
+    },
+    "enemy": {
+      "type": "string"
+    },
+    "beliefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "differentiator": {
+      "type": "string"
+    },
+    "content_pillars": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supporting_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "platform_roles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "usernames": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "name",
+    "niche",
+    "audience",
+    "ideal_customer",
+    "what_they_sell",
+    "business_goals",
+    "content_goals",
+    "expertise",
+    "career_history",
+    "proof_results",
+    "stories",
+    "strong_opinions",
+    "ownership_topics",
+    "excluded_topics",
+    "platforms",
+    "posting_cadence",
+    "desired_tone",
+    "writing_samples",
+    "top_posts",
+    "articles_newsletters",
+    "reference_creators",
+    "cta_offer",
+    "restrictions",
+    "category",
+    "promise",
+    "enemy",
+    "beliefs",
+    "differentiator",
+    "content_pillars",
+    "supporting_topics",
+    "platform_roles",
+    "usernames"
+  ]
+}

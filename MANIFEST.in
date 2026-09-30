@@ -1,0 +1,17 @@
+include README.md AGENTS.md CLAUDE.md START_HERE.md LICENSE IMPLEMENTATION_PLAN.md VERIFICATION.json
+include PROJECT.md STATUS.md DECISIONS.md
+include CONTRIBUTING.md CHANGELOG.md
+include requirements-dev.txt
+recursive-include .github *.yml *.md
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include scripts *.py
+recursive-include tests *.py *.json *.txt *.md
+recursive-include providers *.md
+recursive-include connectors *.md
+recursive-include scheduler *.md *.yaml
+recursive-include cli *.md
+prune demo-output
+prune my-creator
+prune data
+global-exclude __pycache__ *.pyc .env

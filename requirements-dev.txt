@@ -1,0 +1,3 @@
+# Build/test tooling only; creators do not need these to run the installed kit.
+build>=1.2,<2
+tomli>=2,<3; python_version < '3.11'

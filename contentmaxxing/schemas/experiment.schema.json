@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contentmaxxing.local/schemas/experiment",
+  "title": "experiment",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+_[a-f0-9]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "end_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "content_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metric": {
+      "type": "string"
+    },
+    "result": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "learning": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "created_at",
+    "updated_at",
+    "hypothesis",
+    "start_date",
+    "end_date",
+    "content_ids",
+    "metric",
+    "result",
+    "learning",
+    "next_action"
+  ]
+}

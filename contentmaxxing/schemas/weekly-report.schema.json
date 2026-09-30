@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contentmaxxing.local/schemas/weekly-report",
+  "title": "weekly-report",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+_[a-f0-9]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "sample_size": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "growth": {
+      "type": "object"
+    },
+    "top_posts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "weak_posts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "winning_topics": {
+      "type": "array"
+    },
+    "winning_formats": {
+      "type": "array"
+    },
+    "winning_jobs": {
+      "type": "array"
+    },
+    "combinations": {
+      "type": "array"
+    },
+    "posting_windows": {
+      "type": "array"
+    },
+    "compound": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stop": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "test": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "article_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "editorial_brief": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "created_at",
+    "updated_at",
+    "start_date",
+    "end_date",
+    "timezone",
+    "sample_size",
+    "growth",
+    "top_posts",
+    "weak_posts",
+    "winning_topics",
+    "winning_formats",
+    "winning_jobs",
+    "combinations",
+    "posting_windows",
+    "compound",
+    "stop",
+    "test",
+    "article_candidates",
+    "editorial_brief",
+    "limitations"
+  ]
+}

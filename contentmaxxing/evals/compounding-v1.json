@@ -1,0 +1,38 @@
+{
+  "id": "compounding-v1",
+  "cases": [
+    {
+      "id": "develop-winner",
+      "operation": "compound",
+      "profile": {
+        "name": "Avery Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Measured, specific and plain. Normal sentence case.",
+        "writing_samples": [
+          "Name the next owner before you hand over the request. Otherwise the work has moved but the waiting has not."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nFictional evaluation profile; these preferences are confirmed for this fixture.\nUse normal sentence case and practical, measured prose. Prefer concrete process\nverbs. No hype, slang persona, hashtags or automatic CTA. The supplied sample\nuses a concrete action followed by its consequence. Do not copy its cadence\ninto every piece. No measured business results have been supplied.\n",
+      "source": "Avery: The handoff log has columns Request, Next owner, Next action and Check again at.\nAvery: A blank Next owner means nobody has accepted the request yet.\nAvery: For a teaching demo I can show a fictional row, name the next owner and fill in the next action and check time.\nAvery: We have not measured whether this changed delivery times or sales.\nAvery: Someone asked what happens when the named owner is absent. I do not have an example or a process for that yet.\n",
+      "topic": "Name the next handoff owner",
+      "parent_body": "A handoff needs one named owner for the next step.",
+      "brief": "Develop this measured winner into worthwhile follow-up opportunities. Choose what the source supports now and preserve any useful unanswered questions. Do not fill a quota. All creator details, posts and analytics here are fictional fixtures.",
+      "rubric": {
+        "id": "useful-compounding",
+        "question": "Do the opportunities add concrete utility beyond naming an owner, use native formats supported by the actual log/demo, and keep the absent-owner case or outcome claims blocked behind missing evidence rather than inventing them? Is the performance explanation tentative rather than causal?"
+      }
+    }
+  ]
+}

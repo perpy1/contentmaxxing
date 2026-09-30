@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explicit creator feedback",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "created_at", "updated_at", "content_id", "content_revision", "content_sha256", "content_snapshot", "platform", "note", "author", "scope", "category", "excerpt", "replacement", "status", "retirement_reason"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^fb_[a-f0-9]{12}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "content_id": {"type": "string", "pattern": "^post_[a-f0-9]{12}$"},
+    "content_revision": {"type": "integer", "minimum": 1},
+    "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "content_snapshot": {"type": "string", "minLength": 1},
+    "platform": {"type": "string", "minLength": 1},
+    "note": {"type": "string", "minLength": 1, "maxLength": 2000},
+    "author": {"type": "string", "minLength": 1, "maxLength": 200},
+    "scope": {"enum": ["content", "platform", "creator"]},
+    "category": {"enum": ["voice", "evidence", "structure", "angle", "cta", "other"]},
+    "excerpt": {"type": ["string", "null"], "minLength": 1, "maxLength": 2000},
+    "replacement": {"type": ["string", "null"], "maxLength": 2000},
+    "status": {"enum": ["ACTIVE", "RETIRED"]},
+    "retirement_reason": {"type": ["string", "null"], "minLength": 1, "maxLength": 2000}
+  }
+}

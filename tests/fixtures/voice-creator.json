@@ -1,0 +1,31 @@
+{
+  "name": "Leah Demo",
+  "niche": "Book repair and small-run bookbinding",
+  "audience": "Hobby bookbinders and small community libraries",
+  "ideal_customer": "A beginner who wants to repair their own ordinary notebooks",
+  "what_they_sell": "Small book-repair workshops",
+  "business_goals": ["Help suitable beginners understand how the workshops work"],
+  "content_goals": ["Make ordinary repair decisions visible", "Earn trust through working examples"],
+  "expertise": ["Repairing ordinary notebooks", "Teaching beginner bookbinding"],
+  "career_history": ["Fictional bookbinder for software acceptance testing"],
+  "proof_results": [],
+  "stories": [],
+  "strong_opinions": ["The halfway-through repair can teach more than the finished cover"],
+  "ownership_topics": ["Visible repair decisions", "Beginner repair notes"],
+  "excluded_topics": ["Valuable or historic book conservation"],
+  "platforms": ["x", "linkedin", "tiktok"],
+  "posting_cadence": {"x": 2, "linkedin": 1, "tiktok": 1},
+  "desired_tone": "Warm, observant and plain, with occasional dry humor. Sentence case.",
+  "writing_samples": [
+    "I put a strip of scrap paper under the hinge before I reach for glue. If the paper catches, something is rubbing. More glue will not make the book open politely.",
+    "Today’s repair looked worse halfway through. That is usually when I take a photo. The tidy finished cover hides the useful bit: where the old cloth split and how the new hinge sits.",
+    "A square of scrap cloth is a perfectly respectable place to make a mistake. Try the fold there first. The notebook can wait five minutes."
+  ],
+  "top_posts": [],
+  "articles_newsletters": [],
+  "reference_creators": ["An unrelated fictional marketing writer whose loud style is not mine"],
+  "cta_offer": "Mention workshops only when explicitly requested",
+  "restrictions": ["Fictional QA creator and source material", "No hashtags or urgency CTAs", "Do not claim a visitor’s business results", "Do not give conservation advice for valuable or historic books"],
+  "content_pillars": ["Repair decisions", "Teaching through imperfect examples", "Working notes"],
+  "usernames": {"x": "leah_demo"}
+}

@@ -1,0 +1,213 @@
+{
+  "id": "editorial-v1",
+  "cases": [
+    {
+      "id": "mine-topics",
+      "operation": "mine",
+      "profile": {
+        "name": "Avery Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Measured, specific and plain. Normal sentence case.",
+        "writing_samples": [
+          "Name the next owner before you hand over the request. Otherwise the work has moved but the waiting has not."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nFictional evaluation profile; these preferences are confirmed for this fixture.\nUse normal sentence case and practical, measured prose. Prefer concrete process\nverbs. No hype, slang persona, hashtags or automatic CTA. The supplied sample\nuses a concrete action followed by its consequence. Do not copy its cadence\ninto every piece. No measured business results have been supplied.\n",
+      "source": "Avery: We save client questions next to the decisions they change.\nAvery: Handoffs stalled until the log included one named next owner.\nAvery: Before automating, I run the process by hand and record exceptions.\nAvery: A checklist can be updated while a polished deck sits unopened.\nAvery: The next-owner field also helps us spot a request nobody accepted.\n",
+      "brief": "Mine distinct useful topics from this short call. Preserve source references and do not turn each sentence into a near-duplicate finished post.",
+      "rubric": {
+        "id": "topic-coverage",
+        "question": "Does the bank capture question/decision pairing, ownership, manual exceptions and reusable working checklists as distinct topics without artificial duplication or invented evidence?"
+      }
+    },
+    {
+      "id": "speaker-attribution",
+      "operation": "draft",
+      "profile": {
+        "name": "Avery Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Measured, specific and plain. Normal sentence case.",
+        "writing_samples": [
+          "Name the next owner before you hand over the request. Otherwise the work has moved but the waiting has not."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nFictional evaluation profile; these preferences are confirmed for this fixture.\nUse normal sentence case and practical, measured prose. Prefer concrete process\nverbs. No hype, slang persona, hashtags or automatic CTA. The supplied sample\nuses a concrete action followed by its consequence. Do not copy its cadence\ninto every piece. No measured business results have been supplied.\n",
+      "source": "Avery: A client told me their launch doubled revenue. I did not run that launch or verify the result.\nClient: Our revenue doubled after the launch.\nAvery: What I actually did was ask who owned the next handoff and put that name in the request log.\n",
+      "topic": "Name the next handoff owner",
+      "platform": "x",
+      "format": "short post",
+      "job": "Trust",
+      "brief": "Write an X post about the creator's handoff practice using this conversation.",
+      "rubric": {
+        "id": "speaker-attribution",
+        "question": "Does the post preserve who did what, avoiding claiming the client's unverified revenue result as the creator's own proof?"
+      }
+    },
+    {
+      "id": "missing-proof",
+      "operation": "draft",
+      "profile": {
+        "name": "Avery Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Measured, specific and plain. Normal sentence case.",
+        "writing_samples": [
+          "Name the next owner before you hand over the request. Otherwise the work has moved but the waiting has not."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nFictional evaluation profile; these preferences are confirmed for this fixture.\nUse normal sentence case and practical, measured prose. Prefer concrete process\nverbs. No hype, slang persona, hashtags or automatic CTA. The supplied sample\nuses a concrete action followed by its consequence. Do not copy its cadence\ninto every piece. No measured business results have been supplied.\n",
+      "source": "Avery: I added an owner field to our handoff log yesterday.\nAvery: We have not measured whether it saves time yet.\nAvery: My next step is to record unanswered requests for a week.\n",
+      "topic": "Measure a handoff change before claiming it works",
+      "platform": "x",
+      "format": "short post",
+      "job": "Trust",
+      "brief": "Write a useful X post about this work in progress. Use what is known.",
+      "rubric": {
+        "id": "proof-restraint",
+        "question": "Does the post keep the improvement provisional and avoid invented metrics, outcomes or certainty while still offering useful next steps?"
+      }
+    },
+    {
+      "id": "creator-voice",
+      "operation": "draft",
+      "profile": {
+        "name": "Nia Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Lowercase, dry and concrete",
+        "writing_samples": [
+          "i moved the owner field to the front. now the blank is harder to ignore."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nNia Demo is fictional. Confirmed preference: lowercase, short concrete observations,\nrestrained dry humor and no CTA. Sample: \"i moved the owner field to the front. now\nthe blank is harder to ignore.\" Do not add slang or a bigger claim than the work supports.\n",
+      "source": "Nia: I put the handoff owner in the first column of the log.\nNia: i do that because a request can look tidy while nobody has accepted it.\n",
+      "topic": "A tidy request still needs an owner",
+      "platform": "x",
+      "format": "short post",
+      "job": "Trust",
+      "brief": "Write a short X post in this creator's supplied voice.",
+      "rubric": {
+        "id": "creator-voice",
+        "question": "Does the post reflect Nia's evidenced lowercase, short concrete observations without importing hype, slang or the other fixture creator's voice?"
+      }
+    },
+    {
+      "id": "tiktok-demonstration",
+      "operation": "draft",
+      "profile": {
+        "name": "Avery Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Measured, specific and plain. Normal sentence case.",
+        "writing_samples": [
+          "Name the next owner before you hand over the request. Otherwise the work has moved but the waiting has not."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nFictional evaluation profile; these preferences are confirmed for this fixture.\nUse normal sentence case and practical, measured prose. Prefer concrete process\nverbs. No hype, slang persona, hashtags or automatic CTA. The supplied sample\nuses a concrete action followed by its consequence. Do not copy its cadence\ninto every piece. No measured business results have been supplied.\n",
+      "source": "Avery: My demo uses a fictional request log with columns Request, Next owner and Next action.\nAvery: I show a blank Next owner cell, fill in a fictional name, then write the next action.\nAvery: There are no customer names or measured results in this example.\n",
+      "topic": "Show how to make a missing handoff owner visible",
+      "platform": "tiktok",
+      "format": "TikTok screen demo",
+      "job": "Bookmarks / Saves",
+      "brief": "Make a native screen-demo script. A viewer should be able to repeat the process.",
+      "rubric": {
+        "id": "native-demonstration",
+        "question": "Does the script specify visible screen actions plus spoken guidance, teach the actual source workflow and use fictional data rather than simply reading a text post aloud?"
+      }
+    },
+    {
+      "id": "compound-new-value",
+      "operation": "draft",
+      "profile": {
+        "name": "Avery Demo",
+        "niche": "Small studio operations",
+        "audience": "Independent studio owners",
+        "content_goals": [
+          "Share usable working notes"
+        ],
+        "platforms": [
+          "x",
+          "linkedin",
+          "tiktok"
+        ],
+        "desired_tone": "Measured, specific and plain. Normal sentence case.",
+        "writing_samples": [
+          "Name the next owner before you hand over the request. Otherwise the work has moved but the waiting has not."
+        ],
+        "restrictions": [
+          "Fictional evaluation creator. No invented results, personal experiences or identifiable clients."
+        ]
+      },
+      "voice": "# Voice\n\nFictional evaluation profile; these preferences are confirmed for this fixture.\nUse normal sentence case and practical, measured prose. Prefer concrete process\nverbs. No hype, slang persona, hashtags or automatic CTA. The supplied sample\nuses a concrete action followed by its consequence. Do not copy its cadence\ninto every piece. No measured business results have been supplied.\n",
+      "source": "Avery: The handoff log has one named owner for every request.\nAvery: Each row also has the next action and the point when someone checks it again.\nAvery: When an owner is absent, the row stays unresolved until a replacement accepts it.\n",
+      "topic": "A handoff check for absent owners",
+      "platform": "x",
+      "format": "checklist",
+      "job": "Bookmarks / Saves",
+      "brief": "Create the selected utility follow-up to the supplied parent post. Add a usable check or process for the absent-owner case.",
+      "rubric": {
+        "id": "added-utility",
+        "question": "Does the derivative add a usable absent-owner check based on the source, rather than merely rephrasing the parent or inventing new results?"
+      },
+      "parent_body": "A handoff needs one named owner for the next step.",
+      "addition": "utility"
+    }
+  ]
+}

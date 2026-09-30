@@ -1,0 +1,1314 @@
+{
+  "date": "2026-09-30",
+  "tests": {
+    "command": "Installed wheel: python -I -m unittest discover -s tests -v (outside checkout)",
+    "passed": 268,
+    "failed": 0,
+    "python": "3.11",
+    "python39": {
+      "discovered": 268,
+      "passed": 267,
+      "skipped": 1,
+      "reason": "tomllib parsing test requires Python 3.11; installed-wheel compatibility run excludes source and user site"
+    }
+  },
+  "skill_validation": {
+    "skills": 19,
+    "valid": 19
+  },
+  "packaging": {
+    "editable_install": "passed",
+    "wheel_build": "passed",
+    "wheel_resources_verified": {
+      "skills": 19,
+      "schemas": 12,
+      "command_documents": 20,
+      "command_catalog_actions": 19,
+      "welcome_png": true,
+      "kickoff_references": 2,
+      "editorial_eval_cases": 6,
+      "compounding_eval_cases": 1,
+      "eval_suites": 3,
+      "reader_scope_eval_cases": 2
+    },
+    "isolated_wheel_smoke": "Passed outside checkout with network disabled: analytics conflict inspection/correction, experiment measurement/idempotence/export, mining, workspace upgrades, voice, compounding, planning, revisions, feedback and core loop. Candidate runtime is compared byte-for-byte with the final increment."
+  },
+  "offline_demo": {
+    "workspace": "demo-output",
+    "source_topics": 6,
+    "source_excerpt_x_drafts": 6,
+    "fictional_analytics": 6,
+    "winner_lift": 10,
+    "compound_opportunities": 3
+  },
+  "external_agent_demo": {
+    "semantic_topics": 6,
+    "native_x_draft": "post_33d6a1036e1f",
+    "status": "NEEDS_REVIEW"
+  },
+  "live_integrations": {
+    "typefully": "not live-validated; documented API plus mocked tests",
+    "model_api": "mocked transport; external-agent execution demonstrated"
+  },
+  "scope": "See README for complete/deferred modules and next milestones.",
+  "kickoff": {
+    "entrypoint": "START_HERE.md",
+    "command": "contentmaxxing start",
+    "demonstration": "demo-output/kickoff-demo",
+    "result": "3 native X drafts in NEEDS_REVIEW plus LAUNCH_PLAN.md",
+    "tested": [
+      "progressive questions",
+      "external task execution",
+      "resume without duplicate drafts",
+      "portable queued source material",
+      "creator document preservation",
+      "weekly cadence",
+      "interrupted capture recovery"
+    ]
+  },
+  "installation": {
+    "hosts": [
+      "codex",
+      "claude",
+      "cursor",
+      "gemini",
+      "generic"
+    ],
+    "native_skill_validation": {
+      "codex": 20,
+      "claude": 20,
+      "cursor": 20
+    },
+    "gemini": "20 generated TOML commands parse with Python tomllib. This is format validation, not fresh live-host discovery.",
+    "scope": "Project and user-scope behavior tested using temporary directories; no global host installation performed.",
+    "safety_tests": [
+      "dry run",
+      "repeat install",
+      "owned update",
+      "unowned and edited conflicts",
+      "no silent adoption",
+      "rollback",
+      "symlink refusal",
+      "manifest scope",
+      "uninstall preserves edits and creator data",
+      "export and reinstall"
+    ],
+    "host_discovery": "Fresh Codex CLI 0.159.1: 7 ephemeral sessions exercised native skill discovery, interview/file-dump onboarding, text HUD, progress/resume and next. Other hosts and desktop image rendering unverified; doctor still checks files only.",
+    "demo": {
+      "workspace": "demo-output/install-demo",
+      "source_topics": 5,
+      "drafts": 3,
+      "status": "NEEDS_REVIEW",
+      "launch_plan": "data/creator/LAUNCH_PLAN.md",
+      "execution": "Current agent explicitly read the installed instructions and executed the task contracts using fictional sources."
+    },
+    "public_distribution": "Local checkout/wheel only; no registry or marketplace publication."
+  },
+  "onboarding_paths": {
+    "interview": "Progressive creator questions; known facts and legacy launches preserved.",
+    "files": "Inventory, deduplication, cited profile proposal, explicit creator confirmation/corrections, source mining and first batch.",
+    "direct_file_types": [
+      "txt",
+      "md",
+      "markdown",
+      "csv",
+      "json",
+      "jsonl",
+      "srt",
+      "vtt"
+    ],
+    "conversion_required": [
+      "PDF",
+      "DOCX",
+      "images",
+      "audio",
+      "video"
+    ],
+    "demo": {
+      "workspace": "demo-output/intake-demo",
+      "phases": [
+        "WELCOME",
+        "SOURCE_REVIEW",
+        "PROFILE_REVIEW",
+        "CHOOSE_TOPICS",
+        "REVIEW"
+      ],
+      "preserved_sources": 2,
+      "source_excerpt_drafts": 3,
+      "statuses": [
+        "NEEDS_REVIEW",
+        "NEEDS_REVIEW",
+        "NEEDS_REVIEW"
+      ],
+      "welcome": {
+        "document": "demo-output/intake-demo/.contentmaxxing-agent/codex/core/WELCOME.md",
+        "image": "demo-output/intake-demo/.contentmaxxing-agent/codex/core/assets/welcome.png",
+        "agent_action": "Show the welcome HUD and offer 1. Curated interview or 2. Mega file dump. Use text HUD when images are unavailable."
+      },
+      "notice": "Fictional profile and simulated confirmation; extractive source excerpts, no live model or publishing calls."
+    },
+    "welcome": {
+      "image": "contentmaxxing/assets/welcome.png",
+      "prompt": "contentmaxxing/assets/welcome-prompt.md",
+      "generation": "built-in image_gen",
+      "terminal": "contentmaxxing welcome",
+      "host_support": "Image shown only where the host can render local images; text HUD otherwise. Does not replace host home UI."
+    },
+    "current_user_test_workspace": "Not migrated or overwritten during this feature work."
+  },
+  "journey": {
+    "home": "Read-only live stage, saved counts, decisions and next action; full menu remains in help.",
+    "navigation": [
+      "next",
+      "progress",
+      "resume"
+    ],
+    "plan_execution": "create runs the saved Topic + Format + Job snapshot through the existing scheduler; task/run checkpoints survive interruption and moving folders.",
+    "demo": {
+      "workspace": "temporary-qa/contentmaxxing-journey-20260929",
+      "stages": [
+        "SETUP",
+        "PLAN",
+        "CREATE",
+        "REVIEW",
+        "PUBLISH",
+        "MEASURE",
+        "COMPOUND",
+        "PLAN"
+      ],
+      "plan_id": "plan_41abfd995c1b",
+      "external_task_checkpoint": "WAITING",
+      "drafts": 5,
+      "compound_opportunities": 3,
+      "repeat_create_duplicate_drafts": 0,
+      "notice": "Fictional creator/metrics, simulated approvals/publication, literal source excerpts. No live model or publishing calls."
+    },
+    "active_pilot_workspace": "Not modified or reinstalled during this change.",
+    "host_execution": "Fresh Codex CLI progress/resume and next reopened existing drafts with byte-identical creator data. Live publishing remains unverified."
+  },
+  "release_qa": {
+    "report": "docs/QA_REPORT.md",
+    "verdict": "Guided Codex beta with native CLI acceptance; public launch awaits real editorial pilot and distribution",
+    "typefully": "Optional; not a core release gate",
+    "fixed": [
+      "provider error discarded result checkpoint",
+      "task recovery overwrote creator edits",
+      "partial onboarding prevented retry",
+      "export followed symlinks",
+      "failed export destroyed prior backup",
+      "provider HTTP hostname prefix check",
+      "source archive missing guides and fixtures",
+      "fixture ignored by Git",
+      "invisible image fallback",
+      "temporary result JSON broke collection reads and resume",
+      "corrupt canonical record identity was not checked",
+      "fresh host core path ambiguity and omitted HUD"
+    ],
+    "core_smoke": {
+      "package": "isolated Python 3.11 virtualenv/site-packages/contentmaxxing",
+      "commands": 18,
+      "drafts": 5,
+      "winner_lift": 10,
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "clean_python311_install": "passed with separately installed dependencies; pip check clean",
+    "public_release": "No commit, tag, remote or registry publication. Fresh Codex CLI acceptance passed with fictional creators.",
+    "native_codex": {
+      "host": "Codex CLI 0.159.1",
+      "date": "2026-09-30",
+      "sessions": 7,
+      "persona": "Morgan Demo (fictional)",
+      "cases": {
+        "interview": {
+          "sources": 1,
+          "ideas": 4,
+          "drafts": 3,
+          "statuses": [
+            "NEEDS_REVIEW"
+          ],
+          "exact_citations": true,
+          "launch_plan": true
+        },
+        "file-dump": {
+          "sources": 2,
+          "ideas": 4,
+          "drafts": 3,
+          "statuses": [
+            "NEEDS_REVIEW"
+          ],
+          "exact_citations": true,
+          "launch_plan": true
+        }
+      },
+      "text_hud": "passed after instruction fix",
+      "navigation_data_changes": 0,
+      "stray_results_native_resume": "passed after storage fix",
+      "native_wheel_sha256": "2f1abd7d8e4550f2c17b0381da669b6207e3440fead433c0252540cda4abc41a",
+      "limitations": [
+        "CLI only; desktop image rendering unverified",
+        "No real editorial pilot",
+        "No live publishing"
+      ],
+      "report": "docs/CODEX_ACCEPTANCE.md"
+    }
+  },
+  "editorial_evaluations": {
+    "cases": 6,
+    "skill": "agent-evaluation",
+    "guide": "docs/EVALUATIONS.md",
+    "commands": [
+      "prepare",
+      "submit",
+      "grade",
+      "report",
+      "compare"
+    ],
+    "automated_tests": 11,
+    "demo": "demo-output/evaluation-demo",
+    "demo_automated_passes": 6,
+    "human_grades": 0,
+    "demo_status": "NEEDS_HUMAN_REVIEW",
+    "notice": "Current-agent illustration, not a blind quality benchmark or a repeated fresh-host acceptance. No publishing or model API integration required."
+  },
+  "foundation": {
+    "scope": "Repository handoffs; creator state remains in its existing data model",
+    "files": [
+      "PROJECT.md",
+      "STATUS.md",
+      "DECISIONS.md"
+    ],
+    "mapping": "docs/FOUNDATION.md"
+  },
+  "retrieval_and_feedback": {
+    "guide": "docs/RETRIEVAL_AND_FEEDBACK.md",
+    "regression_tests": 19,
+    "retrieval": "Read-only lexical retrieval; reserve all mandatory spans, keep referenced sources <=2400 characters whole when they fit, merge overlapping ranges, retain exact lines/offsets and source hashes. Existing task snapshots unchanged.",
+    "citation_scope": "All mandatory references retained or explicit budget failure; claims checked at their original lines within supplied excerpts; legacy whole-source tasks remain importable.",
+    "pending_evidence": "Explicit tasks cite enriches an uncommitted pending draft without changing its idea snapshot.",
+    "feedback": "Explicit creator direction with original content/revision snapshot, content/platform/creator scope, retirement and deliberate pending-task refresh.",
+    "demo": "demo-output/feedback-loop",
+    "demo_source_chars": 42702,
+    "demo_draft_source_chars": 411,
+    "next_task_received_feedback": true,
+    "demo_drafts": 2,
+    "demo_status": "NEEDS_REVIEW",
+    "notice": "Fictional scripted external responses and simulated reviewer direction; not a live-model or real-creator trial. Does not establish writing-quality improvement.",
+    "limits": [
+      "lexical search does not infer synonyms",
+      "budgets do not limit total model tokens/cost",
+      "declared feedback author is not authenticated",
+      "human review evaluates entailment and editorial usefulness"
+    ],
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-memory-installed/contentmaxxing",
+      "commands": 18,
+      "drafts": 5,
+      "winner_lift": 10,
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "native_host": "Later fictional native trial exercises scoped feedback, retrieval and revisions; see native_creator_trial. Earlier demo remains scripted.",
+    "pilot_workspace": "Not modified or reinstalled."
+  },
+  "mining_and_revisions": {
+    "guide": "docs/MINING_AND_REVISIONS.md",
+    "regression_tests": 27,
+    "mining": "Bounded overlapping windows with original line numbers, stable preallocated task IDs, frozen instructions/creator context, explicit provider retry and restart, per-call limits and visible coverage.",
+    "revision": "Same content ID, before/after journals, item-specific feedback, original topic/format/job/experiment, approval invalidation, optimistic concurrency and recovery preserving subsequent edits.",
+    "older_workspaces": "Packaged fallbacks for missing new schemas/skill; custom creator files retained.",
+    "demo": {
+      "source_characters": 42702,
+      "task_source_characters": 411,
+      "search_hits": 1,
+      "drafts": [
+        "post_3eb292517bea",
+        "post_2d8a6211c053"
+      ],
+      "feedback_id": "fb_a9351e187079",
+      "next_task_received_feedback": true,
+      "mining": {
+        "id": "mine_0e595c32cba9",
+        "source_id": "src_b9971157627d",
+        "status": "COMPLETED",
+        "completed_chunks": 3,
+        "total_chunks": 3,
+        "covered_chars": 42702,
+        "source_chars": 42702,
+        "pending_task_ids": [],
+        "result_ids": [
+          "idea_93d6d13df7d7",
+          "idea_3c6904b11220"
+        ],
+        "notice": "Coverage measures processed source windows, not semantic completeness or editorial quality."
+      },
+      "revision": 2,
+      "revision_preserved_content_id": true,
+      "statuses": [
+        "NEEDS_REVIEW",
+        "NEEDS_REVIEW"
+      ],
+      "notice": "Fictional creator, scripted external responses and simulated reviewer direction. No live model, publishing, or human quality grade."
+    },
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-continuity-final-installed/contentmaxxing",
+      "commands": 18,
+      "drafts": 5,
+      "winner_lift": 10,
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "source_tests": "/tmp/contentmaxxing-continuity-verified-tests.log",
+    "python39_tests": "/tmp/contentmaxxing-continuity-final-py39.log",
+    "native_host": "No fresh native acceptance for this increment; historical native CLI QA predates it.",
+    "quality_boundary": "Processed coverage and valid imports do not establish semantic completeness, voice or creator usefulness. Demo responses and reviewer direction are scripted fictional fixtures.",
+    "active_pilot_workspace": "Not modified or reinstalled."
+  },
+  "editorial_planning": {
+    "guide": "docs/EDITORIAL_PLANNING.md",
+    "regression_tests": 19,
+    "contract": "One shared plan task: native topic/format/job choices, angle, payoff, exact evidence, selection reasons, deferrals and questions. Explicit source/performance/experiment basis.",
+    "context": "Bounded candidate pool with full references or explicit omission, creator brain, feedback, recent content, measured examples and saved experiments.",
+    "continuity": "Writer briefs retained; weekly plans owned by original run; stable completion recovery; frozen legacy choices; export/restore.",
+    "demo": {
+      "plan_id": "plan_b928ed8c1a07",
+      "run_id": "run_78c8287146dd",
+      "drafts": 3,
+      "deferred": 3,
+      "unfilled_x_slots": 1,
+      "high_priority_idea_deferred": true,
+      "resume_duplicate_drafts": 0,
+      "next": "review",
+      "statuses": [
+        "NEEDS_REVIEW",
+        "NEEDS_REVIEW",
+        "NEEDS_REVIEW"
+      ],
+      "notice": "Fictional creator and scripted planning/writing responses. No live model, publishing, or human quality evaluation."
+    },
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-editorial-installed/contentmaxxing",
+      "commands": 18,
+      "drafts": 5,
+      "winner_lift": 10,
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "wheel": "dist/editorial-increment/contentmaxxing-0.1.0-py3-none-any.whl",
+    "wheel_sha256": "8ae8eb7712a192d03d8020ba9a36f9e40c1528a798872da25a6a80e78a3ad7b1",
+    "source_tests": "/tmp/contentmaxxing-editorial-tests.log",
+    "python39_tests": "/tmp/contentmaxxing-editorial-py39.log",
+    "native_host": "Not repeated; historical native Codex acceptance predates this increment.",
+    "quality_boundary": "Contract tests and scripted examples do not establish useful editorial judgment or creator voice. Real creator pilots remain required.",
+    "active_pilot_workspace": "Not modified or reinstalled."
+  },
+  "source_backed_compounding": {
+    "guide": "docs/COMPOUNDING.md",
+    "regression_tests": 26,
+    "contract": "One shared analysis task with frozen parent, known metric/peer comparison, creator context, existing native follow-ups and bounded evidence. Explicit new value, Topic + Format + Job and capture gaps.",
+    "development": "Unresolved questions block drafts and editorial selection; exact cited resolutions attach evidence to the same idea and preserve the question. Citation validity is not semantic proof.",
+    "continuity": "Stable prepared IDs, whole-response preflight, recovery preserves creator edits/resolutions, cancelled partial imports preserve committed ideas, committed imports reconcile, winner watch resumes without automatic paid retries.",
+    "evaluation": {
+      "suite": "contentmaxxing/evals/compounding-v1.json",
+      "cases": 1,
+      "human_grades": 0,
+      "notice": "Fixture seed uses the real publication/analytics lifecycle; mechanical passes require human editorial review."
+    },
+    "demo": {
+      "winner_id": "post_2ab7376e5e02",
+      "compound_task_id": "task_2ab4bba6402a",
+      "follow_ups": [
+        {
+          "id": "idea_1aeb08445e41",
+          "topic": "A two-field note for preserving decision context",
+          "platform": "x"
+        },
+        {
+          "id": "idea_20966c8959eb",
+          "topic": "What changed in a decision after a difficult client question",
+          "platform": "tiktok"
+        }
+      ],
+      "missing_evidence_blocked_draft": true,
+      "resolved_same_idea": true,
+      "native_draft": "post_d9e3f0e80fb8",
+      "draft_status": "NEEDS_REVIEW",
+      "duplicate_follow_ups": 0,
+      "notice": "All creators, source answers, analytics, publications and model responses are fictional scripted fixtures. No live publishing, model API call or human quality grade."
+    },
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-compound-final-installed/contentmaxxing",
+      "commands": 18,
+      "drafts": 5,
+      "winner_lift": 10,
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "wheel": "dist/compound-increment/contentmaxxing-0.1.0-py3-none-any.whl",
+    "wheel_sha256": "b8b35a2da1865f8c535acb89bde4c974ffa44f7149e519e140789549db877e5b",
+    "source_tests": "/tmp/contentmaxxing-compound-final-tests.log",
+    "python39_tests": "/tmp/contentmaxxing-compound-final-py39.log",
+    "native_host": "Not repeated; historical Codex acceptance predates this increment.",
+    "quality_boundary": "Scripted demonstrations and contract checks do not prove useful content, novelty, causal performance or creator voice. Real creator trials remain required.",
+    "active_pilot_workspace": "Not modified or reinstalled.",
+    "pending_evidence": "Explicit tasks cite preserves every earlier excerpt and frozen comparison; original character budget, atomic rejection, import-preparation gate and export/restore covered."
+  },
+  "voice_learning": {
+    "guide": "docs/VOICE_LEARNING.md",
+    "regression_tests": 18,
+    "shared_operation": "voice",
+    "native_action": "voice",
+    "evidence": [
+      "Exact supplied sample quotations",
+      "Explicit creator attribution for captured excerpts",
+      "Speech/writing and known platform scope",
+      "Recurring patterns require independent samples",
+      "Whole-sample omissions disclosed; duplicate and link-only entries excluded"
+    ],
+    "persistence": [
+      "Frozen task evidence",
+      "Inspectable JSON and Markdown proposals",
+      "Manual guidance preserved",
+      "Stale document/profile/feedback/source rejection",
+      "Before/after application journal",
+      "Recovery preserves later creator edits",
+      "Explicit cancellation/dismissal; no automatic paid retries"
+    ],
+    "demonstration": {
+      "workspace": "demo-output/voice-learning-final",
+      "voice_proposal": "voice_cf88fac1c677",
+      "voice_task": "task_cf88fac1c677",
+      "proposal_status": "APPLIED",
+      "creator_correction_preserved": true,
+      "content_id": "post_af71a3e2d814",
+      "content_status": "NEEDS_REVIEW",
+      "body": "Name the next owner before passing the work along.\n\nA handoff with no owner is just another place for a request to wait.",
+      "notice": "Fictional creator, scripted model responses; no real creator voice trial or publishing."
+    },
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-voice-installed/contentmaxxing",
+      "commands": 19,
+      "drafts": 5,
+      "winner_lift": 10,
+      "voice_analysis_apply_resume_export": "passed",
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-voice-final-tests.log",
+      "python39": "/tmp/contentmaxxing-voice-final-py39.log"
+    },
+    "artifacts_manifest": "dist/voice-increment/ARTIFACTS.json",
+    "quality_boundary": "Scripted fictional responses and schema/quote checks do not establish speaker truth, insightful interpretation or creator voice fit. Real creator trials and fresh live-host discovery for this increment remain pending.",
+    "active_creator_pilot_changed": false
+  },
+  "native_creator_trial": {
+    "guide": "docs/NATIVE_CREATOR_TRIAL.md",
+    "date": "2026-09-30",
+    "host": "Codex CLI 0.159.1",
+    "sessions": 3,
+    "scope": "Fresh post-onboarding sessions using an installed wheel; fictional profile seeded through engine; live model responses, scripted review direction. No human quality grade.",
+    "persona": "Leah Demo (fictional bookbinding creator)",
+    "fixtures": [
+      "tests/fixtures/voice-creator.json",
+      "tests/fixtures/voice-source.txt"
+    ],
+    "workspace": "local-qa/voice-native",
+    "evidence": "local-qa/voice-native-evidence",
+    "voice_id": "voice_2247364e2de7",
+    "source_id": "src_13e664028ad8",
+    "ideas": 5,
+    "drafts": {
+      "original_x": "post_f29b8b678266",
+      "linkedin": "post_77df1e677c6f",
+      "tiktok": "post_4684b0940fa7",
+      "new_x": "post_bfb593ad0dcc"
+    },
+    "checks": {
+      "verdict": "passed",
+      "content_records": 4,
+      "revision_same_id": "post_f29b8b678266",
+      "revision": 2,
+      "new_x": "post_bfb593ad0dcc",
+      "untouched_platforms_byte_identical": [
+        "linkedin",
+        "tiktok"
+      ],
+      "creator_files_byte_identical": true,
+      "feedback_scopes": [
+        "platform:x",
+        "content:post_f29b8b678266"
+      ],
+      "one_off_feedback_absent_from_new_draft": true,
+      "full_short_source_context_chars": 1256,
+      "pending_tasks": 0,
+      "statuses": [
+        "NEEDS_REVIEW"
+      ],
+      "publication_actions": 0
+    },
+    "navigation": {
+      "verdict": "passed",
+      "unchanged_data_files": 40,
+      "data_changes": 0,
+      "drafts": 4,
+      "stage": "REVIEW",
+      "pending_tasks": 0,
+      "trace": {
+        "events": 17,
+        "terminal_event": "turn.completed",
+        "usage": {
+          "input_tokens": 135464,
+          "cached_input_tokens": 113920,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1023,
+          "reasoning_output_tokens": 121
+        },
+        "command_errors": 1
+      }
+    },
+    "traces": {
+      "create": {
+        "events": 90,
+        "terminal_event": "turn.completed",
+        "usage": {
+          "input_tokens": 853466,
+          "cached_input_tokens": 794496,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 9201,
+          "reasoning_output_tokens": 1834
+        },
+        "command_errors": 3
+      },
+      "review": {
+        "events": 61,
+        "terminal_event": "turn.completed",
+        "usage": {
+          "input_tokens": 448121,
+          "cached_input_tokens": 398208,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4735,
+          "reasoning_output_tokens": 1020
+        },
+        "command_errors": 1
+      },
+      "resume": {
+        "events": 17,
+        "terminal_event": "turn.completed",
+        "usage": {
+          "input_tokens": 135464,
+          "cached_input_tokens": 113920,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1023,
+          "reasoning_output_tokens": 121
+        },
+        "command_errors": 1
+      }
+    },
+    "observed_failure": "Two first-run writing imports rejected unseen source lines; host attached evidence explicitly and recovered. Short-source clipping and duplicate overlaps fixed, not citation validation bypassed.",
+    "regression_tests": {
+      "new": 3,
+      "failed_before_fix": 2,
+      "focused_total": 19,
+      "after_fix": "passed"
+    },
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-native-retrieval-tests.log",
+      "python39": "/tmp/contentmaxxing-native-retrieval-py39.log",
+      "before_fix": "/tmp/contentmaxxing-native-retrieval-before.log",
+      "after_fix": "/tmp/contentmaxxing-native-retrieval-after.log"
+    },
+    "installed_candidate_smoke": {
+      "package": "/private/tmp/contentmaxxing-release-qa-clean-env/lib/python3.11/site-packages/contentmaxxing",
+      "commands": 19,
+      "drafts": 5,
+      "winner_lift": 10,
+      "voice_analysis_apply_resume_export": "passed",
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "candidate_wheel": "dist/native-retrieval-candidate/contentmaxxing-0.1.0-py3-none-any.whl",
+    "artifacts_manifest": "dist/native-creator-increment/ARTIFACTS.json",
+    "limits": [
+      "No real creator grade or audience-performance claim",
+      "Full onboarding with newer voice step not repeated",
+      "Other hosts and desktop PNG rendering unverified",
+      "No public distribution or live publishing",
+      "Host cumulative token counters are not per-call context size or dollar cost"
+    ],
+    "active_creator_pilot_changed": false
+  },
+  "native_weekly_trial": {
+    "guide": "docs/WEEKLY_CREATOR_TRIAL.md",
+    "host": "Codex CLI 0.159.1",
+    "date": "2026-09-30",
+    "workspace": "local-qa/weekly-native",
+    "evidence": "local-qa/weekly-native-evidence",
+    "seed": "examples/weekly_trial_seed.py",
+    "checker": "scripts/check_weekly_trial.py",
+    "result": {
+      "verdict": "mechanical_checks_passed",
+      "run_id": "run_151ca5a1591f",
+      "plan_id": "plan_b18944efc245",
+      "report_id": "report_a418577f6b03",
+      "review_drafts": 4,
+      "coverage": {
+        "x": {
+          "drafts": 2,
+          "unfilled": 0
+        },
+        "linkedin": {
+          "drafts": 1,
+          "unfilled": 0
+        },
+        "tiktok": {
+          "drafts": 0,
+          "unfilled": 1
+        },
+        "x_article": {
+          "drafts": 0,
+          "unfilled": 1
+        },
+        "substack": {
+          "drafts": 1,
+          "unfilled": 0
+        },
+        "substack_note": {
+          "drafts": 0,
+          "unfilled": 1
+        }
+      },
+      "deferred": 12,
+      "questions": [
+        "To unlock the TikTok slot, can you supply original same-angle clips of both ordinary practice notebooks opening, plus the matching actual written observations? No finished clip is currently available.",
+        "For a later photo-based follow-up, which actual halfway-through image and finished-cover image can be supplied with notebook label, date and what each should show? Text descriptions alone do not establish visual proof.",
+        "The future save-rate test still needs a chosen platform, a concrete finished-cover comparison post and a fixed observation window. X Bookmarks / Saves is the only measured precedent; do you want to develop that comparison after reviewing these drafts?",
+        "When reviewing the Substack guide, does this practical long-form rhythm sound like you? The voice evidence consists of only three short written samples; no long-form or spoken pattern is established."
+      ],
+      "winner": {
+        "content_id": "post_f2f610ddf1ff",
+        "score": 40.0,
+        "baseline": 4.0,
+        "lift": 10.0,
+        "peers": 3,
+        "metric": "bookmarks_per_1k"
+      },
+      "followups": 3,
+      "resume_data_changes": 0,
+      "events": 103,
+      "failed_commands": 3,
+      "usage": {
+        "input_tokens": 1564301,
+        "cached_input_tokens": 1457024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16132,
+        "reasoning_output_tokens": 3417
+      },
+      "notice": "Fictional history and sources; native model-generated week. Exact citations and lifecycle checks do not grade meaning, voice, novelty or usefulness. Initial failed commands remain in the trace."
+    },
+    "observed_fix": {
+      "failure": "tasks cite rejected a compound task",
+      "new_tests": 4,
+      "failed_before_fix": 3,
+      "focused_total": 26,
+      "after_fix": "passed",
+      "before_log": "/tmp/contentmaxxing-compound-cite-before.log",
+      "after_log": "/tmp/contentmaxxing-compound-cite-after.log"
+    },
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-weekly-final-tests.log",
+      "python39": "/tmp/contentmaxxing-weekly-final-py39.log"
+    },
+    "artifacts_manifest": "dist/weekly-increment/ARTIFACTS.json",
+    "boundaries": "Fictional creator/source/metrics/history, native model-written plan/drafts/follow-ups. Native weekly trace predates the compound citation fix and preserves failed commands. No live publishing or real creator grade.",
+    "pilot_workspace_changed": false
+  },
+  "reader_scope_evaluation": {
+    "suite": "contentmaxxing/evals/reader-scope-v1.json",
+    "cases": 2,
+    "native_sessions": 2,
+    "attempts_per_case": 1,
+    "mechanical_passes": {
+      "baseline": 2,
+      "candidate": 2
+    },
+    "human_grades": 0,
+    "status": "NEEDS_HUMAN_REVIEW",
+    "evidence": "local-qa/reader-scope-evidence",
+    "comparison": "Matched suite and grader; instruction hashes differ. Candidate moved an irrelevant measurement caveat into review notes, while both versions kept the unrun experiment status in the body. Small agent-observed difference, not a general quality result.",
+    "engine_boundary": "Trials used the engine before compound citation support; frozen reports retain that grader hash. Fresh matched trials must use the same current engine on both sides."
+  },
+  "workspace_upgrades": {
+    "guide": "docs/WORKSPACE_UPGRADES.md",
+    "regression_tests": 14,
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-upgrade-final-tests.log",
+      "python39": "/tmp/contentmaxxing-upgrade-py39.log"
+    },
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-release-qa-clean-env/lib/python3.11/site-packages/contentmaxxing",
+      "commands": 19,
+      "drafts": 5,
+      "winner_lift": 10,
+      "voice_analysis_apply_resume_export": "passed",
+      "workspace_upgrade_preservation_and_export": "passed",
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_pending_evidence_attachment": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "legacy_replay": {
+      "verdict": "passed",
+      "workspace": "local-qa/weekly-upgrade-replay",
+      "original_unchanged": true,
+      "legacy_workspace": true,
+      "unchanged_data_files": 77,
+      "creator_documents_and_root_settings_unchanged": true,
+      "custom_template_preserved": true,
+      "remaining_preserved": [
+        "templates/brand-brain.md"
+      ],
+      "reviewed_original_stock_files": 4,
+      "updated_assets": [
+        "commands/README.md",
+        "commands/compound.md",
+        "prompts/quality-checks.md",
+        "skills/compound/SKILL.md"
+      ],
+      "repeat_data_changes": 0,
+      "native_registration_integrity": true,
+      "old_release_evidence": "dist/native-creator-increment/contentmaxxing-0.1.0-py3-none-any.whl",
+      "notice": "Installed CLI replay on an isolated copy of fictional native weekly QA; no new host session, model calls, publishing or real creator quality grade."
+    },
+    "evidence": "local-qa/weekly-upgrade-evidence",
+    "artifacts_manifest": "dist/upgrade-increment/ARTIFACTS.json",
+    "demo": {
+      "workspace": "/tmp/contentmaxxing-upgrade-demo-20260930",
+      "log": "/tmp/contentmaxxing-upgrade-demo.log",
+      "notice": "Fictional source excerpts/metrics, no model or publishing calls."
+    },
+    "pending_tasks": "Existing records remain byte-identical; new engine writing tasks demonstrably load the updated skill.",
+    "legacy_boundary": "Unknown differing files are preserved. Explicit exact-match adoption or reviewed replacement establishes a tracked baseline.",
+    "recovery": "Before-files and PREPARED/APPLIED/ROLLED_BACK journals are portable. Preflight rejects newer edits and changed backups before restoration.",
+    "scope": "Local CLI/engine verification, including installed package. No fresh native host discovery or real creator quality grade.",
+    "active_creator_pilot_changed": false
+  },
+  "native_mining_trial": {
+    "guide": "docs/NATIVE_MINING_TRIAL.md",
+    "date": "2026-09-30",
+    "host": "Codex CLI 0.159.1",
+    "fixture": "tests/fixtures/mining-workshop.txt",
+    "rubric": "tests/fixtures/mining-workshop-rubric.json",
+    "seed": "examples/mining_trial_seed.py",
+    "checker": "scripts/check_mining_trial.py",
+    "workspace": "local-qa/mining-native",
+    "evidence": "local-qa/mining-native-evidence",
+    "whole_source": {
+      "verdict": "mechanical_checks_passed",
+      "coverage": {
+        "id": "mine_78f3c0062536",
+        "source_id": "src_03c90cad0b44",
+        "status": "COMPLETED",
+        "completed_chunks": 3,
+        "total_chunks": 3,
+        "covered_chars": 9799,
+        "source_chars": 9799,
+        "pending_task_ids": [],
+        "result_ids": [
+          "idea_880c2f6fc9f7",
+          "idea_f7b0d9e24422",
+          "idea_8c5ba423d8db",
+          "idea_7b71507c9b67",
+          "idea_033eb21537ef",
+          "idea_3374fe2cfed6",
+          "idea_046bb2eb0280",
+          "idea_6ef17c230fd4",
+          "idea_899f9efd68ed",
+          "idea_1c27871fc43a",
+          "idea_de7495f1e823",
+          "idea_5d078d81623d",
+          "idea_51b1e203b49f",
+          "idea_fbe4d6ea815a",
+          "idea_93fb49ecc917",
+          "idea_04cc56d4691a",
+          "idea_00e5255e6a71",
+          "idea_12fe04d87fba",
+          "idea_78ae28944920",
+          "idea_3c1be43ce917",
+          "idea_633efcb13c4e"
+        ],
+        "notice": "Coverage measures processed source windows, not semantic completeness or editorial quality."
+      },
+      "ideas": 21,
+      "article_candidates": 4,
+      "resume_data_changes": 0,
+      "drafts_created": 0,
+      "trace": {
+        "events": 41,
+        "terminal_event": "turn.completed",
+        "usage": {
+          "input_tokens": 627440,
+          "cached_input_tokens": 581120,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7316,
+          "reasoning_output_tokens": 2086
+        },
+        "failed_commands": 1
+      }
+    },
+    "exact_source_citations": 31,
+    "whole_source_engine": "Installed upgrade-increment wheel; predates shared prior-topic context. Native host used ideas cite. Original trace retained.",
+    "window_probes": {
+      "verdict": "mechanical_import_checks_passed",
+      "cases": [
+        {
+          "case": "baseline",
+          "schema_and_import": "passed",
+          "returned_candidates": 9,
+          "existing_topic_candidates": 0,
+          "reused_idea_ids": [],
+          "new_idea_records": 9,
+          "added_references_to_existing": 0,
+          "existing_metadata_preserved": true,
+          "repeat_data_changes": 0,
+          "drafts_created": 0,
+          "instructions_sha256": "fd4f05f2a275abb1f45966e078665180b4f8782727846c5e6f9846ef40e1c51a",
+          "base_inputs_sha256": "dd2a85b5e5d91783a96db579fafb619e7262021dccff8c5bc2e19ffcb00a476d",
+          "contract_sha256": "df555ba8e8098330a8ef36136bb8b99e0dc8102c0730452b9570257e9f954f66",
+          "existing_context": null,
+          "trace_events": 10,
+          "usage": {
+            "input_tokens": 58692,
+            "cached_input_tokens": 48768,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3075,
+            "reasoning_output_tokens": 1422
+          },
+          "response_sha256": "2d4b8c75090867322842b73556b7261bd811a525409397bef54771716c3e2d76"
+        },
+        {
+          "case": "candidate",
+          "schema_and_import": "passed",
+          "returned_candidates": 10,
+          "existing_topic_candidates": 4,
+          "reused_idea_ids": [
+            "idea_1c27871fc43a",
+            "idea_78ae28944920",
+            "idea_880c2f6fc9f7",
+            "idea_fbe4d6ea815a"
+          ],
+          "new_idea_records": 6,
+          "added_references_to_existing": 3,
+          "existing_metadata_preserved": true,
+          "repeat_data_changes": 0,
+          "drafts_created": 0,
+          "instructions_sha256": "fd4f05f2a275abb1f45966e078665180b4f8782727846c5e6f9846ef40e1c51a",
+          "base_inputs_sha256": "dd2a85b5e5d91783a96db579fafb619e7262021dccff8c5bc2e19ffcb00a476d",
+          "contract_sha256": "df555ba8e8098330a8ef36136bb8b99e0dc8102c0730452b9570257e9f954f66",
+          "existing_context": {
+            "max_chars": 12000,
+            "returned_chars": 2715,
+            "eligible": 19,
+            "omitted": 0,
+            "notice": "Same-source topics first, then lexical matches. Titles are retrieval keys, not evidence; this is not the complete idea bank."
+          },
+          "trace_events": 10,
+          "usage": {
+            "input_tokens": 61192,
+            "cached_input_tokens": 49792,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3463,
+            "reasoning_output_tokens": 1682
+          },
+          "response_sha256": "2e09bf4f9e669776340c27c2e60e16e554d63a66b6135abc1ef22b11f443aa81"
+        },
+        {
+          "case": "notes",
+          "schema_and_import": "passed",
+          "returned_candidates": 11,
+          "existing_topic_candidates": 6,
+          "reused_idea_ids": [
+            "idea_033eb21537ef",
+            "idea_1c27871fc43a",
+            "idea_78ae28944920",
+            "idea_880c2f6fc9f7",
+            "idea_899f9efd68ed",
+            "idea_fbe4d6ea815a"
+          ],
+          "new_idea_records": 5,
+          "added_references_to_existing": 5,
+          "existing_metadata_preserved": true,
+          "repeat_data_changes": 0,
+          "drafts_created": 0,
+          "instructions_sha256": "2c0eafed801e376ba260ff548ec761106f5abdf8550f8eb5aa365b7b3c55b02c",
+          "base_inputs_sha256": "dd2a85b5e5d91783a96db579fafb619e7262021dccff8c5bc2e19ffcb00a476d",
+          "contract_sha256": "df555ba8e8098330a8ef36136bb8b99e0dc8102c0730452b9570257e9f954f66",
+          "existing_context": {
+            "max_chars": 12000,
+            "returned_chars": 8794,
+            "eligible": 19,
+            "omitted": 0,
+            "notice": "Same-source topics first, then lexical matches. Titles and bounded notes are retrieval guidance, not evidence; this is not the complete idea bank."
+          },
+          "trace_events": 10,
+          "usage": {
+            "input_tokens": 76139,
+            "cached_input_tokens": 59264,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3821,
+            "reasoning_output_tokens": 2128
+          },
+          "response_sha256": "5c5f689b7f513237695eb272ffa8807ccb5f89cd43ba0314baa075bf6aed02c6"
+        }
+      ],
+      "human_grades": 0,
+      "editorial_status": "NEEDS_HUMAN_REVIEW",
+      "original_unchanged": true,
+      "notice": "One native response per fictional packet. First pair shares instructions; the notes probe adds bounded notes and corresponding instruction wording. More reuse is not automatically better: a person must judge semantic matches and independent angles. Replays reconstruct primary-citation states, not exact historic checkpoints."
+    },
+    "window_evidence": "local-qa/mining-window-evidence",
+    "new_regression_tests": 10,
+    "skill_validation": "transcript-mining passed quick_validate",
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-mining-final-tests.log",
+      "python39": "/tmp/contentmaxxing-mining-final-py39.log",
+      "focused": "/tmp/contentmaxxing-mining-context-final-tests.log"
+    },
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-release-qa-clean-env/lib/python3.11/site-packages/contentmaxxing",
+      "commands": 19,
+      "drafts": 5,
+      "winner_lift": 10,
+      "voice_analysis_apply_resume_export": "passed",
+      "workspace_upgrade_preservation_and_export": "passed",
+      "mining_existing_topic_attachment": "passed",
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_pending_evidence_attachment": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "artifacts_manifest": "dist/mining-increment/ARTIFACTS.json",
+    "demo": {
+      "workspace": "/tmp/contentmaxxing-mining-demo-20260930",
+      "log": "/tmp/contentmaxxing-mining-demo.log",
+      "notice": "Literal fictional source excerpts and metrics; no model/publishing calls."
+    },
+    "limitations": [
+      "No real creator or human editorial grades.",
+      "One response per packet; no general semantic-accuracy or novelty-rate claim.",
+      "Historical full mining run used the earlier engine; final new context exercised by independent packets and installed imports.",
+      "Other model-provider APIs and AI hosts are not live-certified by these Codex trials."
+    ],
+    "active_pilot_changed": false
+  },
+  "experiment_learning": {
+    "date": "2026-09-30",
+    "implementation": "Current experiment interpretations, reconciled membership, read-only descriptive measurements and bounded frozen planning summaries.",
+    "regressions": 13,
+    "pre_fix_evidence": "Six focused cases: five failures for stale/repeated/inconsistent state and one missing measurement API error before implementation.",
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-experiment-tests.log",
+      "python39": "/tmp/contentmaxxing-experiment-py39.log"
+    },
+    "skills_validated": [
+      "analytics",
+      "editorial-planning"
+    ],
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-release-qa-clean-env/lib/python3.11/site-packages/contentmaxxing",
+      "commands": 19,
+      "drafts": 5,
+      "winner_lift": 10,
+      "voice_analysis_apply_resume_export": "passed",
+      "workspace_upgrade_preservation_and_export": "passed",
+      "mining_existing_topic_attachment": "passed",
+      "experiment_measurement_idempotence_and_export": "passed",
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_pending_evidence_attachment": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "native_trial": {
+      "experiment_id": "exp_ab6ccf464969",
+      "content_count": 6,
+      "sample_size": 5,
+      "changed_existing_files": [
+        "data/creator/LEARNINGS.md",
+        "data/experiments/exp_ab6ccf464969.json"
+      ],
+      "observations_and_membership_preserved": true,
+      "identity_sources_content_preserved": true,
+      "repeated_save_data_unchanged": true,
+      "new_content_or_observations": false,
+      "recorded_interpretation": {
+        "result": "DESCRIPTIVE ONLY, evaluated as of 2026-09-25T00:00:00Z using saved observations. The publication window is 2026-09-20 through 2026-09-23 inclusive in workspace UTC. All six assigned posts are on X with primary job Bookmarks / Saves; five have a known bookmarks_per_1k value. Short posts: 8, 10, 12 bookmarks per 1,000 impressions (n=3; median 10). Checklists: 15, 21 (n=2 measured of 3 assigned; median 18). The observed median difference is +8 per 1,000, or 1.8x (+80%); this is a sample comparison, not causal lift or statistical significance. Each saved snapshot has 1,000 impressions and was observed at 2026-09-24T12:00:00Z. Short-post snapshots are 96 hours after publication; checklist snapshots are 24 hours after publication. Checklist post_299994e79d3a has an unknown bookmark count in metric_d3099747c4fd and is excluded from the median, not treated as zero. Short-post provenance: post_3baad0606b8e/metric_b48a35fe8c3d, post_a92109ffbd33/metric_0562c00bcdd8, post_222e56729a1d/metric_f2ea76422fb7. Measured checklist provenance: post_54baf92da361/metric_5b0a5b36e5ff, post_808da87830e0/metric_32ee74f3da91. The as-of cutoff applies to observation timestamps; this uses current saved experiment membership and does not reconstruct historical record revisions.",
+        "learning": "Checklists show a promising association with saves in this fictional QA sample, but the format advantage remains unproven. Only two checklist measurements are complete; missing data, unequal observation ages, different topics and publication dates, and no randomized control prevent attributing the gap to format. The measured checklists concern handoff ownership, while the short posts cover question capture and checklist reuse, so topic utility could contribute. The named-owner handoff-log checklist is the strongest observed individual post at 21 bookmarks per 1,000; it is a candidate topic for a follow-up comparison, not proof that all checklists work better. Bookmarks do not establish actual process reuse, trust, leads or sales. Keep both formats in testing and do not turn this finding into a permanent format or voice preference.",
+        "next_action": "Recommend a matched follow-up before shifting the content mix. Plan three topic-matched pairs on X, one checklist and one short post per pair, with Bookmarks / Saves as the primary job and comparable source-backed utility. Include a handoff-ownership pair; balance comparable posting slots and vary format order across pairs. Prespecify bookmarks per 1,000 impressions measured exactly 96 hours after each publication as the primary comparison for both formats; collect timestamped bookmark and impression counts for every post. Compare within-pair differences and format medians, reporting all sample sizes and missing values; this small follow-up is exploratory, not an automatic proof threshold. For the existing missing checklist count, only use a verifiable timestamped measurement if later supplied, retaining the original unknown snapshot and keeping later observations outside this as-of result. This action is a saved recommendation only: no drafts, publication or observation changes are authorized by this analysis."
+      },
+      "trace_events": 34,
+      "recoverable_command_failures": [
+        "/bin/zsh -lc 'command -v contentmaxxing && contentmaxxing --workspace . --provider external analytics --help'"
+      ],
+      "usage": {
+        "input_tokens": 318229,
+        "cached_input_tokens": 286720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4074,
+        "reasoning_output_tokens": 1117
+      },
+      "human_grades": 0,
+      "editorial_status": "NEEDS_HUMAN_REVIEW",
+      "notice": "One native Codex response to a fictional experiment. Structural checks do not grade the interpretation."
+    },
+    "native_evidence": "local-qa/experiment-native-evidence",
+    "documentation": "docs/NATIVE_EXPERIMENT_TRIAL.md",
+    "artifacts_manifest": "dist/experiment-increment/ARTIFACTS.json",
+    "demo": {
+      "workspace": "/tmp/contentmaxxing-experiment-demo-20260930",
+      "log": "/tmp/contentmaxxing-experiment-demo.log",
+      "metric": "bookmarks_per_1k",
+      "known_samples": 5,
+      "missing": 1,
+      "checklist_median": 18,
+      "short_post_median": 10,
+      "fictional": true
+    },
+    "core_demo": {
+      "workspace": "/tmp/contentmaxxing-experiment-core-demo-20260930",
+      "log": "/tmp/contentmaxxing-experiment-core-demo.log"
+    },
+    "active_pilot_changed": false,
+    "limitations": [
+      "No real creator or independent human grades.",
+      "One native Codex session; other hosts and model APIs not certified.",
+      "No control assignment, fixed-age comparison or causal inference.",
+      "Current definition and interpretation; as_of only bounds observations.",
+      "Weekly/winner snapshot selection is unchanged; tied-origin conflict handling applies to experiment measurements."
+    ]
+  },
+  "analytics_history": {
+    "date": "2026-09-30",
+    "implementation": "One per-metric latest-instant resolution for reports, planning, compounding and experiments; current idea caches, idempotent same-instant imports and explicit provenance/cutoffs.",
+    "regressions": 12,
+    "pre_fix_failures": 4,
+    "pre_fix_evidence": "/tmp/contentmaxxing-analytics-before.log",
+    "test_logs": {
+      "python311": "/tmp/contentmaxxing-analytics-tests.log",
+      "python39": "/tmp/contentmaxxing-analytics-py39.log",
+      "focused": "/tmp/contentmaxxing-analytics-focused.log"
+    },
+    "skills_validated": [
+      "analytics"
+    ],
+    "installed_smoke": {
+      "package": "/private/tmp/contentmaxxing-release-qa-clean-env/lib/python3.11/site-packages/contentmaxxing",
+      "commands": 19,
+      "drafts": 5,
+      "winner_lift": 10,
+      "voice_analysis_apply_resume_export": "passed",
+      "workspace_upgrade_preservation_and_export": "passed",
+      "mining_existing_topic_attachment": "passed",
+      "experiment_measurement_idempotence_and_export": "passed",
+      "analytics_conflict_inspection_and_correction": "passed",
+      "editorial_eval_cases": 6,
+      "invalid_eval_response_retained": true,
+      "source_retrieval": "passed",
+      "feedback_in_next_task_and_export": "passed",
+      "long_source_resume": "passed",
+      "same_id_revision_and_history": "passed",
+      "editorial_plan_and_briefs": "passed",
+      "compound_tasks_and_capture_gaps": "passed",
+      "compound_pending_evidence_attachment": "passed",
+      "compound_opportunities": 3,
+      "connector_calls": 0,
+      "model_api_calls": 0,
+      "export_restore": "passed",
+      "uninstall_preserves_creator": "passed",
+      "welcome_sha256": "351ed2fbd7d86c8e0996430317836908e232b2499402768f7218783cf8d7716f",
+      "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
+    },
+    "demo": {
+      "workspace": "/private/tmp/contentmaxxing-analytics-demo-20260930",
+      "source": "src_dc61b41a928e",
+      "ideas_mined": 6,
+      "x_source_excerpt_drafts": 6,
+      "analytics_imported": 6,
+      "winner": {
+        "content_id": "post_6d5e3fe297f4",
+        "score": 40.0,
+        "baseline": 4.0,
+        "lift": 10.0,
+        "peers": 5,
+        "metric": "bookmarks_per_1k",
+        "measurement_ids": [
+          "metric_3bdaab7ea8a2"
+        ]
+      },
+      "compound_opportunities": [
+        {
+          "id": "idea_4b8b0802ce68",
+          "addition": "utility",
+          "topic": "What to check before applying: Morgan: We used to lose client questions because each call lived in a different folder."
+        },
+        {
+          "id": "idea_c622fc97455d",
+          "addition": "argument",
+          "topic": "Where this stops working: Morgan: We used to lose client questions because each call lived in a different folder."
+        },
+        {
+          "id": "idea_65da3ecd9819",
+          "addition": "format",
+          "topic": "Working-notes guide: Morgan: We used to lose client questions because each call lived in a different folder."
+        }
+      ],
+      "report_id": "report_eb0131e46da9",
+      "notice": "Fictional metrics; extractive retrieval, no live model or publishing calls."
+    },
+    "artifacts_manifest": "dist/analytics-increment/ARTIFACTS.json",
+    "documentation": "docs/ANALYTICS_HISTORY.md",
+    "active_pilot_data_changed": false,
+    "native_trial_repeated": false,
+    "limitations": [
+      "Deterministic fictional regression and installed workflow checks, not a writing-quality grade.",
+      "No fixed-age or causal inference.",
+      "Existing tasks and reports retain their snapshots; corrections do not retroactively rewrite decisions.",
+      "Same-origin corrections replace a record in place; no per-correction history is added.",
+      "Real creator acceptance and public distribution remain unproven."
+    ]
+  },
+  "release_pipeline": {
+    "guide": "docs/RELEASING.md",
+    "verifier": "scripts/verify_release.py",
+    "workflow": ".github/workflows/tests.yml",
+    "new_regressions": 8,
+    "build": "PyPA build 1.6.1, setuptools 79.0.1, --no-isolation; wheel built from sdist",
+    "candidate_directory": "dist/release-pipeline",
+    "candidate_manifest": "dist/release-pipeline/ARTIFACTS.json",
+    "evidence_directory": "dist/release-pipeline-evidence",
+    "tested_payload": "All 102 installed runtime files match the candidate manifest on Python 3.11 and 3.9.",
+    "offline_checks": [
+      "full installed suite",
+      "installed CLI",
+      "pip check",
+      "source-to-compound demo",
+      "release smoke"
+    ],
+    "initial_environment_failure": "Python 3.9 -I exposed missing dependencies previously supplied by user site. Installed dependencies inside QA venv and disabled system site packages before rerunning. Original failed logs retained.",
+    "github": "Workflow YAML parsed locally. No remote configured; no hosted Actions execution claimed.",
+    "provenance": "LOCAL_CANDIDATE; no commit/tag/publication. Tag gate tested with simulated Git responses.",
+    "scope": "No new live host session, creator quality grade, publishing call or pilot mutation."
+  },
+  "evidence_locations": "Historical local-qa/, /tmp/ and dist/ paths refer to maintainer-local evidence, not files promised in a public clone. Current checks can be reproduced with tests/ and scripts/; CI retains candidate evidence when run."
+}

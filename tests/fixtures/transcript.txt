@@ -1,0 +1,6 @@
+Morgan: We used to lose client questions because each call lived in a different folder.
+Morgan: I now save the exact question next to the decision it changed.
+Morgan: A working checklist is easier to reuse than a finished presentation.
+Morgan: Our first onboarding checklist skipped the handoff owner, so requests waited overnight.
+Morgan: The fix was a shared handoff log with one named owner per request.
+Morgan: Before automating a workflow, I run it by hand and write down every exception.

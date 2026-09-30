@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contentmaxxing.local/schemas/content-item",
+  "title": "content-item",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+_[a-f0-9]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "idea_id": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "primary_job": {
+      "enum": [
+        "Reach",
+        "Bookmarks / Saves",
+        "Shares",
+        "Conversation",
+        "Profile Visits",
+        "Follows",
+        "Trust",
+        "Proof",
+        "Authority",
+        "Inbound",
+        "Leads / Calls"
+      ]
+    },
+    "status": {
+      "enum": [
+        "NEEDS_REVIEW",
+        "APPROVED",
+        "SCHEDULED",
+        "PUBLISHED",
+        "COMPOUND",
+        "ARCHIVED"
+      ]
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_reference": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "start_line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "end_line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "source_id",
+          "start_line",
+          "end_line",
+          "quote"
+        ]
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "source_reference": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "type": "string"
+              },
+              "start_line": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "end_line": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "start_line",
+              "end_line",
+              "quote"
+            ]
+          }
+        },
+        "required": [
+          "claim",
+          "source_reference"
+        ]
+      }
+    },
+    "quality_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generation_mode": {
+      "type": "string"
+    },
+    "framework": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scheduled_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "published_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "remote": {
+      "type": "object"
+    },
+    "experiment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "id",
+    "created_at",
+    "updated_at",
+    "idea_id",
+    "topic",
+    "platform",
+    "format",
+    "primary_job",
+    "status",
+    "body",
+    "title",
+    "source_reference",
+    "claims",
+    "quality_notes",
+    "generation_mode",
+    "framework",
+    "approved_at",
+    "scheduled_at",
+    "published_at",
+    "published_urls",
+    "remote",
+    "experiment",
+    "revision"
+  ]
+}

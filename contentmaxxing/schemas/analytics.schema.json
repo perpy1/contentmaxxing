@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contentmaxxing.local/schemas/analytics",
+  "title": "analytics",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+_[a-f0-9]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "content_id": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "impressions": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "views": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "engagements": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "engagement_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "likes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "replies": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "reposts": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "shares": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "bookmarks": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "profile_visits": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "new_followers": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unfollows": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "net_followers": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "link_clicks": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "leads": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "calls": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "impressions",
+        "views",
+        "engagements",
+        "engagement_rate",
+        "likes",
+        "replies",
+        "reposts",
+        "shares",
+        "bookmarks",
+        "profile_visits",
+        "new_followers",
+        "unfollows",
+        "net_followers",
+        "link_clicks",
+        "leads",
+        "calls"
+      ]
+    },
+    "derived": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "number",
+          "null"
+        ]
+      }
+    },
+    "origin": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "created_at",
+    "updated_at",
+    "content_id",
+    "platform",
+    "observed_at",
+    "metrics",
+    "derived",
+    "origin"
+  ]
+}

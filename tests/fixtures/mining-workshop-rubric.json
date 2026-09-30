@@ -1,0 +1,38 @@
+{
+  "id": "mining-workshop-v1",
+  "source": "mining-workshop.txt",
+  "notice": "Line matches find evidence for review. They do not grade semantic coverage, attribution or usefulness. No required topic count.",
+  "topic_families": [
+    {"id": "tray-destination", "lines": [3, 29], "review": "Does one topic retain both explanations of destination versus inventory, without making the restatement a duplicate?"},
+    {"id": "setup-reference-photo", "lines": [4], "review": "Are the photos a future source to attach, rather than supplied proof of better learning?"},
+    {"id": "customer-language", "lines": [5], "review": "Is the specific booking question paired with what the class description failed to explain?"},
+    {"id": "editable-checklist", "lines": [7], "review": "Does the idea preserve the actual crossed-out instruction rather than generic checklist advice?"},
+    {"id": "rehearsal-before-handout", "lines": [8, 33], "review": "Does the bank connect the rehearsal mistake and its visual evidence opportunity, without losing the documents that still need capture?"},
+    {"id": "guest-booking-result", "lines": [9, 10], "review": "Is Sol's unverified result distinguished from Dana's proposed availability question, with no borrowed first-person proof?"},
+    {"id": "decisions-before-supplies", "lines": [11], "review": "Is the unresolved shared-versus-individual demonstration set decision retained?"},
+    {"id": "readiness-by-area", "lines": [12], "review": "Are seating, supplies and demonstration readiness a usable distinction without invented error reductions?"},
+    {"id": "mystery-tick", "lines": [13, 30], "review": "Are the original phrase and later sent-checkbox story connected without splitting the same core problem into near-duplicate topics?"},
+    {"id": "document-evolution", "lines": [15, 35], "review": "Does the guide/series candidate preserve the successive artifacts and their unresolved capture/redaction needs?"},
+    {"id": "teaching-example-label", "lines": [16], "review": "Is the correction example labeled by what it demonstrates rather than judged only by polish?"},
+    {"id": "unanswered-questions", "lines": [17], "review": "Does the idea distinguish capturing a question from claiming expertise or promising an answer?"},
+    {"id": "expertise-boundary", "lines": [18, 19], "review": "Are the guest's story and the creator's scope preserved without generating restoration advice?"},
+    {"id": "testimonial-permission", "lines": [21], "review": "Is this an opportunity about requesting permission, not an authorized testimonial?"},
+    {"id": "reservations-vs-payment", "lines": [22], "review": "Are ten reservations, eight paid and two held distinguished rather than flattened into ten paid seats?"},
+    {"id": "feedback-question", "lines": [23], "review": "Does the exact instruction-rereading question remain useful without an invented reply-rate increase?"},
+    {"id": "dated-page-context", "lines": [24], "review": "Is the page version paired with the later booking question?"},
+    {"id": "photo-permission", "lines": [25], "review": "Are participant photos distinguished from permitted material to publish?"},
+    {"id": "capture-markers", "lines": [26], "review": "Is the voice marker a proposed retrieval experiment with no assumed editing-time saving?"},
+    {"id": "reason-with-change", "lines": [28], "review": "Is the reason for moving tools retained separately from the move itself?"},
+    {"id": "guest-observed-setup", "lines": [31], "review": "Does Sol retain ownership of the helper-observation practice?"},
+    {"id": "silent-handover-test", "lines": [32], "review": "Is Dana's quiet handover a future experiment rather than an achieved onboarding improvement?"},
+    {"id": "unresolved-recap", "lines": [34], "review": "Does the unresolved shared-set question survive without a universal low-polish performance claim?"}
+  ],
+  "whole_bank_review": [
+    "The strongest topics are specific enough to develop, not transcript summaries or finished post quotas.",
+    "Repeated wording adds citations or useful detail instead of multiplying the idea count.",
+    "Related but independent ideas, such as photo permissions and testimonial permissions, are not merged solely because they share a broad category.",
+    "Speaker attribution, uncertainty, privacy restrictions and missing artifacts are retained where they affect later drafting.",
+    "Article and visual opportunities remain developable topics; no platform format is prematurely forced on every idea.",
+    "Incidental kettle/audio setup chatter does not become a content topic."
+  ]
+}

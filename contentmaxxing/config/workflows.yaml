@@ -1,0 +1,34 @@
+# Cron expressions are metadata for an external clock, never model-specific tasks.
+timezone: UTC
+workflows:
+  weekly_analytics:
+    cadence: "0 8 * * MON"
+    steps: [analytics]
+  weekly_x_batch:
+    cadence: "15 8 * * MON"
+    steps: [analytics, x]
+  weekly_linkedin:
+    cadence: "30 8 * * MON"
+    steps: [analytics, linkedin]
+  weekly_tiktok:
+    cadence: "45 8 * * MON"
+    steps: [analytics, tiktok]
+  weekly_x_article:
+    cadence: "0 9 * * MON"
+    steps: [analytics, x_article]
+  weekly_substack:
+    cadence: "15 9 * * MON"
+    steps: [analytics, substack, substack_note]
+  winner_compound_watch:
+    cadence: "0 10 * * *"
+    steps: [analytics, compound]
+  weekly-editorial:
+    cadence: "0 8 * * MON"
+    steps: [analytics, x, linkedin, tiktok, x_article, substack, substack_note, compound]
+counts:
+  x: 21
+  linkedin: 3
+  tiktok: 3
+  x_article: 1
+  substack: 1
+  substack_note: 3

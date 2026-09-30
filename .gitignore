@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+.DS_Store
+data/**
+!data/**/
+!data/**/.gitkeep
+demo-output/
+my-creator/
+/creator.json
+/result.json
+/eval-runs/
