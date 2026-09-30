@@ -7,6 +7,13 @@ creator data. That host acceptance predates the increments below. See
 
 ## Latest completed increment
 
+The initial repository commit is `954961e`. A fresh clone installed successfully
+using the README steps, registered 19 Codex actions, passed doctor and reached
+WELCOME. Its exact candidate passed 268 installed tests on Python 3.11 and 267
+plus one expected skip on Python 3.9; the installed offline workflow and core demo
+also passed. All 102 runtime files matched the artifact inventory. See
+`docs/TESTING_RELEASE.md`. No public remote or hosted CI run is claimed.
+
 The repository now has a creator-facing testing-release README, a first-session
 walkthrough, feedback/bug templates, contribution guidance, a changelog and
 launch copy. The former long README remains as `docs/ENGINE_REFERENCE.md`.

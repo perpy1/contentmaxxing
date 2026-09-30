@@ -218,7 +218,7 @@
       "notice": "Fictional data, literal external-task responses, simulated manual publication. Host discovery and writing quality are not certified by this smoke test."
     },
     "clean_python311_install": "passed with separately installed dependencies; pip check clean",
-    "public_release": "No commit, tag, remote or registry publication. Fresh Codex CLI acceptance passed with fictional creators.",
+    "public_release": "Historical candidate had no commit or remote; see testing_release for the current committed repository. Public remote, tag, registry and release publication are still pending.",
     "native_codex": {
       "host": "Codex CLI 0.159.1",
       "date": "2026-09-30",
@@ -1310,5 +1310,33 @@
     "provenance": "LOCAL_CANDIDATE; no commit/tag/publication. Tag gate tested with simulated Git responses.",
     "scope": "No new live host session, creator quality grade, publishing call or pilot mutation."
   },
-  "evidence_locations": "Historical local-qa/, /tmp/ and dist/ paths refer to maintainer-local evidence, not files promised in a public clone. Current checks can be reproduced with tests/ and scripts/; CI retains candidate evidence when run."
+  "evidence_locations": "Historical local-qa/, /tmp/ and dist/ paths refer to maintainer-local evidence, not files promised in a public clone. Current checks can be reproduced with tests/ and scripts/; CI retains candidate evidence when run.",
+  "testing_release": {
+    "source_commit": "954961e66c5256e017da1a508a79021ac946051b",
+    "report": "docs/TESTING_RELEASE.md",
+    "scope": "Push-ready early testing repository. Documentation-only evidence updates follow the tested source commit.",
+    "fresh_clone": true,
+    "readme_install": "passed in new Python 3.11 venv using pip install .",
+    "codex_commands_registered": 19,
+    "doctor_integrity": "passed",
+    "first_cli_phase": "WELCOME",
+    "installed_python311": {
+      "passed": 268,
+      "failed": 0
+    },
+    "installed_python39": {
+      "passed": 267,
+      "skipped": 1,
+      "failed": 0
+    },
+    "runtime_files_verified": 102,
+    "installed_offline_smoke": "passed",
+    "offline_demo": "passed",
+    "candidate_manifest": "dist/testing-launch/ARTIFACTS.json",
+    "evidence": "dist/testing-launch-evidence/",
+    "public_remote": null,
+    "hosted_ci": "not run",
+    "real_creator_quality": "awaiting testers",
+    "native_host_scope": "No new native host session; earlier fictional Codex trials remain separate."
+  }
 }
