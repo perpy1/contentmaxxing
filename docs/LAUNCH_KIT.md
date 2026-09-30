@@ -1,7 +1,7 @@
 # Testing-release launch kit
 
-These are draft launch materials. Use the published repository URL as the link
-when posting; no canonical repository or registry URL is assumed here. The
+These are draft launch materials. Link to the
+[official repository](https://github.com/perpy1/contentmaxxing) when posting. The
 accurate initial positioning is **open-source creator agent kit, early testing
 release, Codex tested**. Other host adapters are available for testing.
 

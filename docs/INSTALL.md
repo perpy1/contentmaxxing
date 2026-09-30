@@ -11,17 +11,21 @@ complete the same content loop; connectors can be added later.
 
 Maintainers can build and test a downloadable wheel using the
 [release procedure](RELEASING.md). It records exact artifact hashes and exercises
-the installed package; public hosting and a versioned download URL remain pending.
+the installed package. The repository is public; versioned release assets remain pending.
 
 ## From this checkout
 
-Python 3.9+ is required. In the CONTENTMAXXING checkout:
+Python 3.9+ is required. Clone the
+[official repository](https://github.com/perpy1/contentmaxxing), or download its
+source ZIP through GitHub's Code menu:
 
 ```sh
+git clone https://github.com/perpy1/contentmaxxing.git
+cd contentmaxxing
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install .
-contentmaxxing install --agent claude --path ../my-content
+contentmaxxing install --agent codex --path ../my-content
 ```
 
 On Windows, activate with `.venv\Scripts\Activate.ps1` in PowerShell. Choose

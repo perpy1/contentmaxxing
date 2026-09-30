@@ -1,7 +1,8 @@
 # Prepare a release candidate
 
-The kit is currently a local Codex beta. There is no public download endpoint or
-package-registry release yet. This workflow prepares inspectable candidates; it
+The kit is an early Codex testing release available from the
+[public repository](https://github.com/perpy1/contentmaxxing). Versioned release
+assets and package-registry distribution remain pending. This workflow prepares inspectable candidates; it
 does not publish a release, create a tag, or certify creator writing quality.
 
 ## Build and inspect

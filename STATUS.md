@@ -7,6 +7,14 @@ creator data. That host acceptance predates the increments below. See
 
 ## Latest completed increment
 
+The repository is now public at https://github.com/perpy1/contentmaxxing, with
+`main` tracking the new origin. The README and installation guide include the
+actual clone command, and package metadata links to the repository and Issues.
+The first hosted CI run has started; the earlier local verification below remains
+separate evidence until a hosted run completes.
+
+## Testing-release preparation
+
 The initial repository commit is `954961e`. A fresh clone installed successfully
 using the README steps, registered 19 Codex actions, passed doctor and reached
 WELCOME. Its exact candidate passed 268 installed tests on Python 3.11 and 267

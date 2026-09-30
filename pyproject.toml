@@ -12,6 +12,10 @@ dependencies = ["jsonschema>=4.18,<5", "PyYAML>=6,<7", "tzdata>=2024.1; platform
 license = "MIT"
 license-files = ["LICENSE"]
 
+[project.urls]
+Repository = "https://github.com/perpy1/contentmaxxing"
+Issues = "https://github.com/perpy1/contentmaxxing/issues"
+
 [project.scripts]
 contentmaxxing = "contentmaxxing.cli:main"
 

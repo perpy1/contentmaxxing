@@ -243,3 +243,12 @@ Do not invent a remote, marketplace install or hosted CI result. Real creator
 feedback remains required for broader product claims, but it is an outcome of
 this testing release rather than a prerequisite for inviting testers. Keep the
 engine, Typefully-optional path and creator data boundaries unchanged.
+
+## 2026-09-30 — Publish the testing repository
+
+The user requested getting the kit onto GitHub. Use the authenticated `perpy1`
+account and the available `contentmaxxing` name. Publish the reviewed commits as
+an open-source public repository, preserve the local history, and enable the
+existing CI and feedback templates. Add real clone/issue URLs to the docs and
+package metadata. Hosted CI results remain separate from local checks; no
+registry package or versioned release asset is implied by publishing the repo.

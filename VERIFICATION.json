@@ -1334,9 +1334,19 @@
     "offline_demo": "passed",
     "candidate_manifest": "dist/testing-launch/ARTIFACTS.json",
     "evidence": "dist/testing-launch-evidence/",
-    "public_remote": null,
-    "hosted_ci": "not run",
+    "public_remote": "https://github.com/perpy1/contentmaxxing",
+    "hosted_ci": "First run started; result pending at publication of these notes.",
     "real_creator_quality": "awaiting testers",
     "native_host_scope": "No new native host session; earlier fictional Codex trials remain separate."
+  },
+  "repository_publication": {
+    "repository": "https://github.com/perpy1/contentmaxxing",
+    "visibility": "public",
+    "default_branch": "main",
+    "initial_pushed_head": "0d08f0acd8451db46c9d9adfe8de8c2d5b74aa99",
+    "first_run": "https://github.com/perpy1/contentmaxxing/actions/runs/36784498628",
+    "first_run_status": "in_progress at initial inspection",
+    "versioned_release": "not published",
+    "registry": "not published"
   }
 }

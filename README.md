@@ -44,9 +44,11 @@ You need Python 3.9+ (3.11+ recommended) and an AI environment with local file a
 command access. Native Codex CLI sessions have exercised both onboarding paths.
 Ordinary browser chat alone cannot execute this kit.
 
-Download or clone this repository, then open a terminal in its folder:
+Clone the repository and install the kit:
 
 ```sh
+git clone https://github.com/perpy1/contentmaxxing.git
+cd contentmaxxing
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install .
